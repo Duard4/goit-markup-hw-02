@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: calc(16px * 0.02);
+}
+
+section {
+    padding: 120px 156px;
+}
+
+/* RESET STYLES */
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL TEXT CONFIGURE */
+h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496PX;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 72px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+p {
+    margin-top: 8px;
+}
+
+/* GLOBAL LIST CONFIGURE */
+ul {
+    list-style-type: none;    
+    display: inline-flex;
+    padding: 0;
+    gap: 24px;
+}
+
+/* GLOBAL LINK CONFIGURE */
+a, a:active, span {
+    color: #4D5AE5;
+    align-content: center;
+    font-style: normal;
+}
+
+/* ELEMENTS CONFIGURE */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: calc(18px * 0.03);
+}
+button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 16px 32px;    
+    border: none;
+    letter-spacing: calc(16px * 0.04);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CARDS CONFIGURE */
+.portfolio li, .team li {
+    background-color: #FFFFFF;
+    h3 {
+        margin: 32px 16px 0;
+    }
+    p {
+        margin: 0 16px 32px;
+    }
+}
+
+/* SECTIONS CONFIGURE */
+.header {
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    background-color: #FFFFFF;
+    height: 72px;
+    align-items: center;
+    a {
+        color: #2E2F42; 
+    }
+    nav, address {
+        display: inherit;
+    }
+    nav {
+        font-weight: 500;
+    }
+    ul {
+        gap: 40px;
+    }
+    address {
+        margin-left: 332px;
+    }
+    .logo {
+        margin: auto 76px auto 156px;
+    }
+    
+}
+
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    text-align: center;
+    height: 672px;
+    h1 {
+        margin: 188px auto 48px;
+    }
+}
+
+.team {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+.portfolio {
+    text-align: center;
+    ul {
+        margin-bottom: 48px;
+    }
+    li {
+        border: 1px solid #E7E9FC;
+        text-align: left;
+    }
+}
+
+.footer {
+    padding: 100px 156px;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    a {
+        color: #F4F4FD;
+    }
+    p {
+        max-width: 264px;
+        margin-top: 16px;
+    }
+}
+
+
