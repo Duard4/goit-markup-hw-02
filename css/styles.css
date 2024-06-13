@@ -5,7 +5,7 @@ body {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: calc(16px * 0.02);
+    letter-spacing: 0.02em;
 }
 
 section {
@@ -26,14 +26,21 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496PX;
+    letter-spacing: 0.02em;
 }
 h2 {
     font-size: 36px;
     margin-bottom: 72px;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42 ;
 }
 h3 {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42 ;
 }
 p {
     margin-top: 8px;
@@ -47,19 +54,22 @@ ul {
     gap: 24px;
 }
 
-/* GLOBAL LINK CONFIGURE */
-a, a:active, span {
+/* GLOBAL LINK & SPAN CONFIGURE */
+a, a:active {
     color: #4D5AE5;
     align-content: center;
     font-style: normal;
 }
+
 
 /* ELEMENTS CONFIGURE */
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
-    letter-spacing: calc(18px * 0.03);
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 button {
     background-color: #4D5AE5;
@@ -67,7 +77,7 @@ button {
     color: #FFFFFF;
     padding: 16px 32px;    
     border: none;
-    letter-spacing: calc(16px * 0.04);
+    letter-spacing: 0.04em;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -91,11 +101,13 @@ button {
     background-color: #FFFFFF;
     height: 72px;
     align-items: center;
-    a {
-        color: #2E2F42; 
+
+    ul a, span {
+        color: #2E2F42;
     }
     nav, address {
         display: inherit;
+        
     }
     nav {
         font-weight: 500;
@@ -141,13 +153,14 @@ button {
     padding: 100px 156px;
     background-color: #2E2F42;
     color: #F4F4FD;
-    a {
-        color: #F4F4FD;
-    }
+    
     p {
         max-width: 264px;
         margin-top: 16px;
     }
+    span {
+        color: #f4f4fd ;
+    } 
 }
 
 
