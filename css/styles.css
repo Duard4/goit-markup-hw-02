@@ -52,6 +52,7 @@ ul {
 /* GLOBAL LINK & SPAN CONFIGURE */
 a, a:active {
     color: #4D5AE5;
+    align-content: center;
     font-style: normal;
 }
 
@@ -91,11 +92,9 @@ a, a:active {
 
 /* SECTIONS CONFIGURE */
 .header {
-    width: 100%;
     background-color: #FFFFFF;
     .address {
         margin-left: 332px;
-        font-style: normal;
     }
     .logo {
         margin-right:76px;
@@ -113,8 +112,9 @@ a, a:active {
     font-weight: 500 ;
 
 }
-.address-link {
+address .address-link {
     color: #434455;
+    font-style: normal;
 }
 .nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus {
     color: #404bbf ;
@@ -123,6 +123,7 @@ a, a:active {
 .hero {
     background-color: #2E2F42;
     color: #FFFFFF;
+    text-align: center;
     height: 672px;
     h1 {
         margin: 188px auto 48px;
@@ -131,10 +132,16 @@ a, a:active {
 
 .team {
     background-color: #F4F4FD;
+    text-align: center;
 }
 .portfolio {
+    text-align: center;
     ul {
         margin-bottom: 48px;
+    }
+    li {
+        border: 1px solid #E7E9FC;
+        text-align: left;
     }
 }
 
