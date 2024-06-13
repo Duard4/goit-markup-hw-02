@@ -21,7 +21,6 @@ a {
 h1 {
     font-size: 56px;
     line-height: 1.07;
-    max-width: 496PX;
     letter-spacing: 0.02em;
 }
 h2 {
@@ -95,6 +94,7 @@ a, a:active {
     background-color: #FFFFFF;
     .address {
         margin-left: 332px;
+        font-style: normal;
     }
     .logo {
         margin-right:76px;
@@ -112,9 +112,11 @@ a, a:active {
     font-weight: 500 ;
 
 }
+address {
+    font-style: normal;
+}
 address .address-link {
     color: #434455;
-    font-style: normal;
 }
 .nav-link:hover, .nav-link:focus, .address-link:hover, .address-link:focus {
     color: #404bbf ;
@@ -150,7 +152,6 @@ address .address-link {
     color: #F4F4FD;
     
     p {
-        max-width: 264px;
         margin-top: 16px;
     }
 
