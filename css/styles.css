@@ -41,9 +41,11 @@ h3 {
     font-weight: 500;
     line-height: 1.2;
     color: #2e2f42 ;
+    letter-spacing: 0.02em;
 }
 p {
     margin-top: 8px;
+    font-size: 16px;
 }
 
 /* GLOBAL LIST CONFIGURE */
@@ -69,13 +71,17 @@ a, a:active {
     line-height: 1.17;
     text-transform: uppercase;
 }
-button {
+.order-btn {
     background-color: #4D5AE5;
     font-weight: 500;
     color: #FFFFFF;
     border: none;
     letter-spacing: 0.04em;
     cursor: pointer;
+    line-height: 1.5;
+}
+.order-btn:hover, .order-btn:focus {
+    background-color: #404BBF;
 }
 
 /* CARDS CONFIGURE */
@@ -95,8 +101,11 @@ button {
     display: inline-flex;
     background-color: #FFFFFF;
     
-    ul a, span {
-        color: #2E2F42;
+    ul a, .logo-span {
+        color: #2e2f42;
+    }
+    ul a:hover, ul a:focus {
+        color: #404bbf ;
     }
     nav, address {
         display: inherit;
@@ -108,9 +117,11 @@ button {
 
     address {
         margin-left: 332px;
+        font-style: normal;
     }
     .logo {
         margin-right:76px;
+        
     }
     
 }
@@ -148,7 +159,7 @@ button {
         max-width: 264px;
         margin-top: 16px;
     }
-    span {
+    .logo-span {
         color: #f4f4fd ;
     } 
 }
